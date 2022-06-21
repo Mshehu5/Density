@@ -8,6 +8,10 @@ namespace Density
         #region Properties
 
         /// <summary>
+        /// Designates whether or not integrated security should be utilized, where applicable.
+        /// </summary>
+        bool UseIntegratedSecurity { get; set; }
+        /// <summary>
         /// The server where the database is hosted.
         /// </summary>
         string Server { get; set; }
