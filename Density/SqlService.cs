@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Density
 {
     /// <summary>
-    /// Represents a <see cref="SqlExecutionConduit"/> for executing <see cref="SqlModule"/> instances.
+    /// Represents a <see cref="SqlService"/> for executing <see cref="SqlModule"/> instances.
     /// </summary>
     public abstract class SqlService
     {
