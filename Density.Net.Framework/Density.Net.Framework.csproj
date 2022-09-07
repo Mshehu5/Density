@@ -4,14 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D1172A9C-6755-41AB-909D-873B5A0E83D4}</ProjectGuid>
+    <ProjectGuid>{A2B30F46-A598-4E93-A004-018CCAB5C84A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Density</RootNamespace>
-    <AssemblyName>Density</AssemblyName>
+    <RootNamespace>Density.Net.Framework</RootNamespace>
+    <AssemblyName>Density.Net.Framework</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <Deterministic>false</Deterministic>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,12 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IConnectionDescription.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SqlConnectionDescription.cs" />
-    <Compile Include="SqlService.cs" />
-    <Compile Include="SqlModule.cs" />
-    <Compile Include="SqlParameter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

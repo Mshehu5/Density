@@ -5,6 +5,12 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Density", "Density\Density.csproj", "{D1172A9C-6755-41AB-909D-873B5A0E83D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Density.Net", "Density.Net\Density.Net.csproj", "{4BA375C4-FBC2-4955-A7C6-8F037B8F1B5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Density.Net.Framework", "Density.Net.Framework\Density.Net.Framework.csproj", "{A2B30F46-A598-4E93-A004-018CCAB5C84A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Density.Dapper", "Density.Dapper\Density.Dapper.csproj", "{36E980AA-ABB5-4463-862F-2BF48E27D5B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{D1172A9C-6755-41AB-909D-873B5A0E83D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1172A9C-6755-41AB-909D-873B5A0E83D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1172A9C-6755-41AB-909D-873B5A0E83D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA375C4-FBC2-4955-A7C6-8F037B8F1B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA375C4-FBC2-4955-A7C6-8F037B8F1B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA375C4-FBC2-4955-A7C6-8F037B8F1B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA375C4-FBC2-4955-A7C6-8F037B8F1B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B30F46-A598-4E93-A004-018CCAB5C84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B30F46-A598-4E93-A004-018CCAB5C84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B30F46-A598-4E93-A004-018CCAB5C84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B30F46-A598-4E93-A004-018CCAB5C84A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E980AA-ABB5-4463-862F-2BF48E27D5B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E980AA-ABB5-4463-862F-2BF48E27D5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E980AA-ABB5-4463-862F-2BF48E27D5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E980AA-ABB5-4463-862F-2BF48E27D5B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
