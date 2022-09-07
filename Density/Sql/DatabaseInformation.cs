@@ -16,7 +16,7 @@ namespace Density.Sql
         /// </summary>
         public bool UseIntegratedSecurity { get; set; }
         /// <summary>
-        /// 
+        /// Gets or sets a Boolean value that indicates whether User ID and Password are specified in the connection (when false) or whether the current Windows account credentials are used for authentication (when true).
         /// </summary>
         public string CurrentLanguage { get; set; }
         /// <summary>
