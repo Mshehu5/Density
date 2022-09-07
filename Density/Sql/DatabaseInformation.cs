@@ -44,7 +44,7 @@ namespace Density.Sql
         /// </summary>
         public TimeSpan LoadBalanceTimeout { get; set; }
         /// <summary>
-        /// The connection string based on this information instance.
+        /// 
         /// </summary>
         [JsonIgnore] [XmlIgnore]
         public string ConnectionString
