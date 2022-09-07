@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Density
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public interface IDataRequest : IDisposable
     {
 
